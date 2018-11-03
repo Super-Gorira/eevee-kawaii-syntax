@@ -1,0 +1,18 @@
+{
+  "name": "eevee-syntax",
+  "theme": "syntax",
+  "version": "0.0.4",
+  "description": "Eevee, I choose you!",
+  "keywords": [
+    "syntax",
+    "eevee",
+    "pokemon",
+    "brown",
+    "theme"
+  ],
+  "repository": "https://github.com/Super-Gorira/eevee-kawaii-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
