@@ -2,6 +2,9 @@
 
 atom-text-editor {
   color: @syntax-text-color;
+  .text-color-selected{
+    color:@very-light-gray;
+  }
 
   .wrap-guide {
     background-color: @eevee-brown;
@@ -47,8 +50,9 @@ atom-text-editor {
 
 
   .cursor {
-    width: 80px !important;
+    width: 30px !important;
     color: @syntax-cursor-color;
+    border-left: 2px solid;
     background-image: url("atom://eevee-syntax/styles/eevee.gif");
     background-size:cover;
   }
@@ -69,7 +73,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: fade(@eevee-brown,30%);
 }
 
 .syntax--keyword {
